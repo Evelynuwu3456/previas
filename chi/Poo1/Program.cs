@@ -49,14 +49,16 @@ namespace Poo1
             carrito.AgregarProducto(producto2);
             Console.WriteLine("Total del carrito: " + carrito.CalcularTotal());
 
-            // Crear un empleado y estudiante
+            // Crear un empleado
             Empleado empleado = new Empleado("Pedro", "Gonzalez", 30, "Gerente", 3000m);
             empleado.AumentarSalario(10);
             Console.WriteLine($"Nuevo salario de {empleado.Nombre}: {empleado.Salario}");
 
             Estudiante estudiante = new Estudiante("Maria", "Lopez", 20, "Ingeniería", 9.0m);
             estudiante.ActualizarPromedio(9.5m);
+            estudiante.MostrarInformacion();
             Console.WriteLine($"Nuevo promedio de {estudiante.Nombre}: {estudiante.Promedio}");
+            
 
             // Crear una biblioteca y realizar préstamos
             Biblioteca biblioteca = new Biblioteca();
@@ -294,6 +296,10 @@ namespace Poo1
             public void ActualizarPromedio(decimal nuevoPromedio)
             {
                 Promedio = nuevoPromedio;
+            }
+            public void MostrarInformacion()
+            {
+                Console.WriteLine($"Estudiante: {Nombre} {Apellido}, Carrera: {Carrera}, Promedio: {Promedio:F2}");
             }
         }
 
