@@ -1,0 +1,7 @@
+C:\xampp\htdocs\chi\Poo1\obj\Debug\Poo1.csproj.AssemblyReference.cache
+C:\xampp\htdocs\chi\Poo1\obj\Debug\Poo1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\chi\Poo1\bin\Debug\Poo1.exe.config
+C:\xampp\htdocs\chi\Poo1\bin\Debug\Poo1.exe
+C:\xampp\htdocs\chi\Poo1\bin\Debug\Poo1.pdb
+C:\xampp\htdocs\chi\Poo1\obj\Debug\Poo1.exe
+C:\xampp\htdocs\chi\Poo1\obj\Debug\Poo1.pdb
